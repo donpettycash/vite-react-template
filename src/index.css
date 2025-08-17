@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Print-friendly tweaks */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white !important; }
+}
